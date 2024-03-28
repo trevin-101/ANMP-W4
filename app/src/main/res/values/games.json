@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "genre": "Action-adventure",
+        "platforms": ["Nintendo Switch", "Wii U"],
+        "developer": {
+            "name": "Nintendo EPD",
+            "country": "Japan"
+        },
+        "images": "https://loremflickr.com/320/240/games?lock=1"
+    },
+    {
+        "id": 2,
+        "title": "The Witcher 3: Wild Hunt",
+        "genre": "Action role-playing",
+        "platforms": ["PlayStation 4", "Xbox One", "PC"],
+        "developer": {
+            "name": "CD Projekt Red",
+            "country": "Poland"
+        },
+        "images": "https://loremflickr.com/320/240/games?lock=2"
+    },
+    {
+        "id": 3,
+        "title": "Grand Theft Auto V",
+        "genre": "Action-adventure",
+        "platforms": ["PlayStation 4", "Xbox One", "PC"],
+        "developer": {
+            "name": "Rockstar North",
+            "country": "United Kingdom"
+        },
+        "images": "https://loremflickr.com/320/240/games?lock=3"
+    },
+    {
+        "id": 4,
+        "title": "Red Dead Redemption 2",
+        "genre": "Action-adventure",
+        "platforms": ["PlayStation 4", "Xbox One", "PC"],
+        "developer": {
+            "name": "Rockstar Games",
+            "country": "United States"
+        },
+        "images": "https://loremflickr.com/320/240/games?lock=4"
+    },
+    {
+        "id": 5,
+        "title": "Fortnite",
+        "genre": "Battle royale",
+        "platforms": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC", "Mobile"],
+        "developer": {
+            "name": "Epic Games",
+            "country": "United States"
+        },
+        "images": "https://loremflickr.com/320/240/games?lock=5"
+    },
+    {
+        "id": 6,
+        "title": "Minecraft",
+        "genre": "Sandbox, Survival",
+        "platforms": ["Multi-platform"],
+        "developer": {
+            "name": "Mojang Studios",
+            "country": "Sweden"
+        },
+        "images": "https://loremflickr.com/320/240/games?lock=6"
+    },
+    {
+        "id": 7,
+        "title": "Among Us",
+        "genre": "Social deduction",
+        "platforms": ["iOS", "Android", "PC"],
+        "developer": {
+            "name": "InnerSloth",
+            "country": "United States"
+        },
+        "images": "https://loremflickr.com/320/240/games?lock=7"
+    },
+    {
+        "id": 8,
+        "title": "Call of Duty: Warzone",
+        "genre": "Battle royale, First-person shooter",
+        "platforms": ["PlayStation 4", "Xbox One", "PC"],
+        "developer": {
+            "name": "Infinity Ward, Raven Software",
+            "country": "United States"
+        },
+        "images": "https://loremflickr.com/320/240/games?lock=8"
+    },
+    {
+        "id": 9,
+        "title": "Apex Legends",
+        "genre": "Battle royale, First-person shooter",
+        "platforms": ["PlayStation 4", "Xbox One", "PC"],
+        "developer": {
+            "name": "Respawn Entertainment",
+            "country": "United States"
+        },
+        "images": "https://loremflickr.com/320/240/games?lock=9"
+    },
+    {
+        "id": 10,
+        "title": "Pokémon Sword and Shield",
+        "genre": "Role-playing",
+        "platforms": ["Nintendo Switch"],
+        "developer": {
+            "name": "Game Freak",
+            "country": "Japan"
+        },
+        "images": "https://loremflickr.com/320/240/games?lock=10"
+    }
+]

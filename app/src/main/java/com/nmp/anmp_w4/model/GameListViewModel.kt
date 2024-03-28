@@ -33,10 +33,10 @@ class GameListViewModel(application: Application): AndroidViewModel(application)
     }
     fun fetch() {
         val sType = object : TypeToken<List<Student>>() { }.type
-        val result = Gson().fromJson<List<Student>>(it, sType)
-        gameID.value = result as ArrayList<Student>?
+        //val result = Gson().fromJson<List<Student>>(it, sType)
+        //gameID.value = result as ArrayList<Student>?
 
-        Log.d("showvoley", result.toString())
+        //Log.d("showvoley", result.toString())
     }
 
 
