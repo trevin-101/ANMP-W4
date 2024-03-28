@@ -14,15 +14,15 @@ data class Student(
 )
 
 data class Game(
-    val id: Int,
-    val title: String,
-    val genre: String,
-    val platforms: List<String>,
-    val developer: Developer,
-    val images: String
+    val id: Int?,
+    val title: String?,
+    val genre: String?,
+    val platforms: List<String>?,
+    val developer: Developer?,
+    val images: String?
 )
 
 data class Developer(
-    val name: String,
-    val country: String
+    val name: String?,
+    val country: String?
 )
