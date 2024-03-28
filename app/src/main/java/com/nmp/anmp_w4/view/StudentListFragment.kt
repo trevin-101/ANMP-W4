@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.nmp.anmp_w4.R
 import com.nmp.anmp_w4.databinding.FragmentStudentListBinding
 import com.nmp.anmp_w4.model.ListViewModel
 
@@ -41,11 +40,11 @@ class StudentListFragment : Fragment() {
     }
 
     fun observeViewModel() {
-        viewModel.studentsLD.observe(viewLifecycleOwner, Observer {
+        viewModel.studentsID.observe(viewLifecycleOwner, Observer {
             studentListAdapter.updateStudentList(it)
         })
 
-        viewModel.studentLoadErrorLD.observe(viewLifecycleOwner, Observer {
+        viewModel.studentLoadErrorID.observe(viewLifecycleOwner, Observer {
             if(it == true) {
                 binding.txtError?.visibility = View.VISIBLE
             } else {
